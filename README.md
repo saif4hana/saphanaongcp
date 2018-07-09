@@ -9,3 +9,6 @@ HANA 2.0 SPS 03 from April 2018.
 
 ### Documentation ### 
 * [SAP HANA Planning Guide](https://cloud.google.com/solutions/partners/sap/sap-hana-planning-guide)
+* [All SAP HANA Guides](https://cloud.google.com/solutions/partners/sap/sap-hana-guides)
+* [Google Cloud Console](https://console.cloud.google.com/)
+* [Installing Google Cloud SDK](https://cloud.google.com/sdk/install)
