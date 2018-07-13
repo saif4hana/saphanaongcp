@@ -19,7 +19,7 @@ To automate SAP HANA deployments on the Google Cloud Platform, you need to downl
 
 You can only download the SAP products that are associated with your S-user ID. For more information on this topic, see [Everything you need to know about S-User ID](https://www.sapanalytics.cloud/resources-s-user-id/).  
 
-If you would like to learn more about downloading SAP software, see Software Download tutorial video from the SAP HANA platform installation and update playlist. 
+If you would like to learn more about downloading SAP software, see [Software Download](https://www.youtube.com/watch?v=kPCSa7Z4qH8) tutorial video from the SAP HANA platform installation and update playlist. 
 
 ### Tutorial Video ### 
 [![Create Cloud Storage Bucket](https://img.youtube.com/vi/CV4CaBbI06o/0.jpg)](https://www.youtube.com/watch?v=CV4CaBbI06o "Create Cloud Storage Bucket")
@@ -29,7 +29,7 @@ If you would like to learn more about downloading SAP software, see Software Dow
 * [SAP HANA PLATFORM EDITION 2.0 (INSTALLATIONS AND UPGRADES)](https://launchpad.support.sap.com/#/softwarecenter/template/products/related/_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=73554900100900001301&V=INST/SAP%20HANA%20PLATFORM%20EDITION%202.0%20(SUPPORT%20PACKAGES%20AND%20PATCHES))
 * [Everything you need to know about S-User ID](https://www.sapanalytics.cloud/resources-s-user-id/)
 * [SAP HANA Deployment Guide](https://cloud.google.com/solutions/partners/sap/sap-hana-deployment-guide)
-* [SAP HANA Academy - SAP HANA Installation and Update: Software Download [2.0 SPS 02]](https://www.youtube.com/watch?v=kPCSa7Z4qH8&list=PLkzo92owKnVxLSwL08JT7TwqcynRJcRoe&index=26)
+* [SAP HANA Academy - SAP HANA Installation and Update: Software Download [2.0 SPS 02]](https://www.youtube.com/watch?v=kPCSa7Z4qH8)
 
 ## Deployment Configuration ##
 The Google Cloud Platform Deployment Manager takes as imput a configuration file (https://storage.googleapis.com/sapdeploy/dm-templates/sap_hana/template.yaml). In this video tutorial, we explain the different parameters. 
@@ -79,6 +79,8 @@ Files examined include:
 * the GCE instance startup file (https://storage.googleapis.com/sapdeploy/dm-templates/sap_hana/sap_hana.py) 
 * bash script file(s) (https://storage.googleapis.com/sapdeploy/include/sap_func_hdb.sh)
 
+If you are new to the topic of SAP HANA installation automation, you might find the [video tutorial](https://www.youtube.com/watch?v=RnDmezQra0E) on this topic of interest.  
+
 ```
 hdb-install() {
 	main-errhandle_log_info 'Installing SAP HANA'
@@ -96,3 +98,4 @@ hdb-install() {
 
 ### Documentation ### 
 * [SAP HANA Deployment Guide](https://cloud.google.com/solutions/partners/sap/sap-hana-deployment-guide)
+* [SAP HANA Academy - SAP HANA Installation and Update: Installation Automation [2.0 SPS 02]](https://www.youtube.com/watch?v=RnDmezQra0E)
